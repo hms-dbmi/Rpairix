@@ -26,7 +26,7 @@ $ git push -u origin master
 ### How to change package name
 * change file name `Hello.Rproj` to `<MyPackageName>.Rproj`
 * edit the file `DESCRIPTION` and replace `Hello` with `<MyPackageName>`
-* (optionally) edit this `README.md` file (replace `Hello` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 30) 
+* (optionally) edit this `README.md` file (replace `Hello` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 50) 
 
 ### How to add a function to the package
 * Create a function file inside the `R/` directory and run `library(devtools); document()` in R.
