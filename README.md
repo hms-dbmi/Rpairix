@@ -3,6 +3,11 @@
 * You can use this repo as a template to create an R package. Make changes as you wish and run `git commit` and `git push`.
 * The R package is auto-tested on Travis.
 
+### How to start
+* First, fork this repo to your github account and change name.
+* Modify the content as below.
+* Get a Travis account and turn on Travis testing on this repo.
+
 ### How to change package name
 * change file name `Hello.Rproj` to `<MyPackageName>.Rproj`
 * edit the file `DESCRIPTION` and replace `Hello` with `<MyPackageName>`
