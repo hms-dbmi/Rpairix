@@ -3,8 +3,23 @@
 * You can use this repo as a template to create an R package. Make changes as you wish and run `git commit` and `git push`.
 * The R package is auto-tested on Travis.
 
+### Requirements
+* R>=3.1
+* You need `devtools` installed on your R
+```r
+install.packages("devtools")
+```
+
 ### How to start
-* First, fork this repo to your github account and change name.
+* First, clone this repo to your github account and change name.
+```
+$ git clone https://hms-dbmi/Rstarter
+$ cd Rstarter
+$ rm -rf .git
+$ git remote add origin https://github.com/hms-dbmi/<MyPackageName>.git
+$ git push -u origin master
+```
+
 * Modify the content as below.
 * Get a Travis account and turn on Travis testing on this repo.
 
