@@ -6,7 +6,7 @@
 ### How to change package name
 * change file name `Hello.Rproj` to `<MyPackageName>.Rproj`
 * edit the file `DESCRIPTION` and replace `Hello` with `<MyPackageName>`
-* (optionally) edit this README file (replace `Hello` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 25) 
+* (optionally) edit this `README.md` file (replace `Hello` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 30) 
 
 ### How to add a function to the package
 * Create a function file inside the `R/` directory and run `library(devtools); document()` in R.
@@ -17,7 +17,7 @@
 
 ### How to change version
 * edit the version number in files `DESCRIPTION` and `<MyPackageName>.Rproj`
-* edit the version number in this README as well, if applicable (if you want to keep version number in README).
+* edit the version number in this `README.md` as well, if applicable (if you want to keep version number in `README.md`).
 * (optionally, to allow installation of specific release) Create a release on Github that matches the new version number (e.g. `0.0.1`)
 
 ### How to add data
@@ -26,7 +26,10 @@
 ### More complex scenarios
 * Some more complex examples may be found in https://github/4dn-dcic/Rpairix
 
+
 ***
+***
+
 
 ## Table of contents
 * [Installation](#installation)
