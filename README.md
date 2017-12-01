@@ -9,6 +9,11 @@
 ```r
 install.packages("devtools")
 ```
+* To add tests, install `testthat` and `usethis` as well.
+```r
+install.packages("testthat")
+install.packages("usethis")
+```
 
 ### How to start
 * First, clone this repo to your github account and change name.
@@ -26,7 +31,7 @@ $ git push -u origin master
 ### How to change package name
 * change file name `Rstarter.Rproj` to `<MyPackageName>.Rproj`
 * edit the file `DESCRIPTION` and replace `Rstarter` with `<MyPackageName>`
-* (optionally) edit this `README.md` file (replace `Rstarter` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 50) 
+* (optionally) edit this `README.md` file (replace `Rstarter` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 60) 
 
 ### How to add a function to the package
 * Create a function file inside the `R/` directory and run `library(devtools); document()` in R.
@@ -39,6 +44,12 @@ $ git push -u origin master
 * edit the version number in files `DESCRIPTION` and `<MyPackageName>.Rproj`
 * edit the version number in this `README.md` as well, if applicable (if you want to keep version number in `README.md`).
 * (optionally, to allow installation of specific release) Create a release on Github that matches the new version number (e.g. `0.0.1`)
+
+### How to add test
+* From inside the repo directory, open and R session and use `usethis` to create a test function template and modify the test function (example `tests/testthat/test-hello.R`). Replace `hello` with your function name.
+```r
+usethis::use_test("hello")
+```
 
 ### How to add data
 * data files can be added to the package under the `inst` directory.
