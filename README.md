@@ -1,4 +1,6 @@
-## Rstarter
+## Rstarter [![Build Status](https://travis-ci.org/hms-dbmi/Rstarter.svg?branch=master)](https://travis-ci.org/hms-dbmi/Rstarter) <a href="https://codecov.io/gh/hms-dbmi/Rstarter">
+  <img src="https://codecov.io/gh/hms-dbmi/Rstarter/branch/master/graph/badge.svg" />
+</a>
 
 * You can use this repo as a template to create an R package. Make changes as you wish and run `git commit` and `git push`.
 * The R package is auto-tested on Travis.
