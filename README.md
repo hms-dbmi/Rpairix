@@ -87,6 +87,10 @@ install_url("https://github.com/hms-dbmi/Rstarter/archive/0.0.1.zip")
 [1] "Hello World!"
 [1] 12
 >
+> hello('hahaha')
+[1] "hahaha"
+[1] 6
+>
 > hello('hahaha',FALSE)  # different message, character count only
 [1] 6
 ```
