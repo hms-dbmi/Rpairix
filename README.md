@@ -44,7 +44,7 @@ $ git push -u origin master
 * data files can be added to the package under the `inst` directory.
 
 ### More complex scenarios
-* Some more complex examples may be found in https://github/4dn-dcic/Rpairix
+* Some more complex examples may be found in https://github.com/4dn-dcic/Rpairix
 
 
 ***
