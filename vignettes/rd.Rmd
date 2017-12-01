@@ -1,0 +1,20 @@
+---
+title: "Rstarter Documentation"
+subtitle: "Rstarter"
+author: ""
+copyright: ""
+output:
+  packagedocs::package_docs_rd:
+    toc: true
+    toc_collapse: false
+redirect: http://hms-dbmi.github.io/Rstarter/rd.html
+vignette: |
+  %\VignetteIndexEntry{Rstarter Package Reference}
+  %\VignetteEngine{packagedocs::redirect}
+navpills: |
+  <li><a href='docs.html'>Docs</a></li>
+  <li class="active"><a href='rd.html'>Package Ref</a></li>
+---
+
+```{r auto-gen-child, child="auto-generated-rd.Rmd"}
+```
