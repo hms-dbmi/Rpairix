@@ -24,9 +24,9 @@ $ git push -u origin master
 * Get a Travis account and turn on Travis testing on this repo.
 
 ### How to change package name
-* change file name `Hello.Rproj` to `<MyPackageName>.Rproj`
-* edit the file `DESCRIPTION` and replace `Hello` with `<MyPackageName>`
-* (optionally) edit this `README.md` file (replace `Hello` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 50) 
+* change file name `Rstarter.Rproj` to `<MyPackageName>.Rproj`
+* edit the file `DESCRIPTION` and replace `Rstarter` with `<MyPackageName>`
+* (optionally) edit this `README.md` file (replace `Rstarter` with `<MyPackageName>`, `hms-dbmi` with your github account, below line 50) 
 
 ### How to add a function to the package
 * Create a function file inside the `R/` directory and run `library(devtools); document()` in R.
@@ -61,18 +61,18 @@ $ git push -u origin master
 ## Installation
 ```r
 library(devtools)
-install_github("hms-dbmi/Hello")
+install_github("hms-dbmi/Rstarter")
 ```
 Alternatively,
 ```bash
-git clone https://github.com/hms-dbmi/Hello/
-cd Hello
+git clone https://github.com/hms-dbmi/Rstarter/
+cd Rstarter
 R --no-site-file --no-environ --no-save --no-restore CMD INSTALL --install-tests .
 ```
 To install a specific version,
 ```r
 library(devtools)
-install_url("https://github.com/hms-dbmi/Hello/archive/0.0.1.zip")
+install_url("https://github.com/hms-dbmi/Rstarter/archive/0.0.1.zip")
 ```
 
 
@@ -81,7 +81,7 @@ install_url("https://github.com/hms-dbmi/Hello/archive/0.0.1.zip")
 
 ## Example run
 ```r
-> library(Hello)
+> library(Rstarter)
 >
 > hello()
 [1] "Hello World!"

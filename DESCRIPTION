@@ -1,5 +1,5 @@
-Package: Hello
-Title: Hello
+Package: Rstarter
+Title: Rstarter
 Version: 0.0.1
 Authors@R: person("Some", "Name", email = "some_email@gmail.com", role = c("aut", "cre"))
 Description: R package for greeting
